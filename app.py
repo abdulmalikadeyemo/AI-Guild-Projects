@@ -360,7 +360,7 @@ def search_projects(query: str, projects: List[Dict]) -> List[Dict]:
 
 def main():
     st.set_page_config(
-        page_title="AI Guild Projects Tracker",
+        page_title="SuperteamNG AI Guild Projects Tracker",
         page_icon="🤖",
         layout="wide"
     )
@@ -369,7 +369,7 @@ def main():
     init_db()
 
     # Main navigation
-    st.title("🤖 AI Guild Project Tracker")
+    st.title("🤖 SuperteamNG AI Guild Project Tracker")
 
     # Create all tabs
     tabs = st.tabs(["View Projects", "Register Project", "Edit Projects"])
